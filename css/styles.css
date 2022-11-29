@@ -11,9 +11,10 @@
 
 
 /* стилі для index.html */
-.page {
+body {
     background-color: #F5F5F5;
     color: #757575;
+    font-family: Roboto, sans-serif;
 }
 /* header */
 
@@ -22,7 +23,10 @@ ul {
 }
 
 .logo {
-    color: #000000; 
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
 }
 .logo:hover,
 .logo:focus {
@@ -34,6 +38,10 @@ ul {
 /* site nav */
 .site-nav .link {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -53,31 +61,83 @@ ul {
 .hero {
     background-color: #2F303A;
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .btn {
     background-color: #2196F3;
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
-/* section */
+/* main */
 .section-title {
     color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .lead {
     color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 }
+
+.text {
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
 .team {
     background-color: #F5F4FA;
+}
+.subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.text-team {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* footer */
 .footer {
     background-color: #2F303A;
-}
-.footer-list .link, .link-logo {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+.footer-list .link-logo {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
 .footer-list .item-link {
     color: rgba(255, 255, 255, 0.6);
 }
@@ -85,6 +145,39 @@ ul {
 .footer-list .link-logo:focus {
     color: #2196F3;
 }
+.footer-list .link:hover,
+.footer-list .link:focus {
+    color: #2196F3;
+}
 .footer-list .item-link:hover,
 .footer-list .item-link:focus {
     color: #2196F3;
+}
+
+/* Портфоліо */
+.button {
+    background-color: #F5F4FA;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.button-nav .button:hover,
+.button-nav .button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.list {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
