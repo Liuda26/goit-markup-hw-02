@@ -143,14 +143,16 @@ letter-spacing: 0.03em;
 .text-team {
     font-size: 16px;
     line-height: 1.19;
-
+}
 /* footer */
+
 .footer {
     background-color: var(--back-hero);
     font-size: 14px;
     line-height: 1.71;
     color: var(--secondary-color);
 }
+
 .footer .logo-link {
     color: var(--secondary-color);
     font-family: Raleway, sans-serif;
